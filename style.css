@@ -22,8 +22,8 @@ aside {
     box-sizing: border-box;
 }
 #logo {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 100px;
 }
 main {
     flex: 1;
