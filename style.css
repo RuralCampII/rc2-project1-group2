@@ -32,6 +32,12 @@ main {
     box-sizing: border-box;
 }
 
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Distribuir imágenes de manera uniforme */
+    padding: 20px;
+}
+
 img {
     max-width: 150px;
     height: 150px;
