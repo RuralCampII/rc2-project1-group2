@@ -21,7 +21,10 @@ aside {
     padding: 20px;
     box-sizing: border-box;
 }
-
+#logo {
+    width: 500px;
+    height: 500px;
+}
 main {
     flex: 1;
     padding: 20px;
