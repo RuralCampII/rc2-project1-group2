@@ -34,7 +34,7 @@ main {
 
 .image-container {
     display: flex;
-    justify-content: space-between; /* Distribuir imágenes de manera uniforme */
+    justify-content: space-between;
     padding: 20px;
 }
 
