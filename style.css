@@ -5,31 +5,10 @@ body {
     background-color: #85C7DE;
     display: flex;
 }
-
-h1 {
+h1, #intro, #contact {
     color: white;
     text-align: center;
-    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-
-}
-
-
-#intro {
-    color: white;
-    text-align: center;
-    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-}
-
-#contact {
-    text-align: center;
-    color: white;
-    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-
-}
-
-select.email {
-    display: flex;
-    justify-content: column;
+    font-family: 'Vegur', 'PT Sans', Verdana, sans-serif;
 }
 
 ul {
@@ -50,16 +29,10 @@ nav {
     box-sizing: border-box;
 }
 
-label {
+select.email, label, button.enviar {
     display: flex;
-    justify-content: column;
-}
-
-button.enviar {
-    display: flex;
-    justify-content: column;
+    flex-direction: column; 
     color: white;
-    background-color: cornflowerblue;
 }
 
 #logo {
