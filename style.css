@@ -28,6 +28,10 @@ select.email {
     justify-content: column;
 }
 
+ul {
+    list-style: none;
+}
+
 nav a {
     color: white;
     text-decoration: none;
