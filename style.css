@@ -23,8 +23,13 @@ nav a {
     color: white;
     text-decoration: none;
 }
+nav h3{
+    color:rgb(95, 157, 193);
+    text-align: center; 
+}
 
 ul {
+    padding-top: 30px;
     list-style: none;
     font-size: large;
 }
