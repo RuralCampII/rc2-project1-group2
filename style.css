@@ -5,20 +5,10 @@ body {
     background-color: #85C7DE;
     display: flex;
 }
-h1, #intro, #contact {
-    color: white;
-    text-align: center;
-    font-family: 'Vegur', 'PT Sans', Verdana, sans-serif;
-}
 
-ul {
-    list-style: none;
-    font-size: large;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
+#logo {
+    width: 700px;
+    height: 100px;
 }
 
 nav {
@@ -29,15 +19,14 @@ nav {
     box-sizing: border-box;
 }
 
-select.email, label, button.enviar {
-    display: flex;
-    flex-direction: column; 
+nav a {
     color: white;
+    text-decoration: none;
 }
 
-#logo {
-    width: 700px;
-    height: 100px;
+ul {
+    list-style: none;
+    font-size: large;
 }
 
 main {
@@ -46,13 +35,18 @@ main {
     box-sizing: border-box;
 }
 
+h1, #intro, #contact {
+    color: white;
+    text-align: center;
+    font-family: 'Vegur', 'PT Sans', Verdana, sans-serif;
+}
+
 section.team-members {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
 }
 
 #git {
@@ -63,11 +57,44 @@ section.team-members {
 
 article {
     text-align: center;
+    width: 30%;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
 }
+
+#jony{
+    background-color: greenyellow;
+}
+
+#emii {
+    background-color: green;
+}
+
+#enol{
+    background-color:sienna;
+}
+
+#karen {
+    background-color:lightsteelblue;
+}
+
+#ana{
+    background-color:lightcoral;
+}
+
 
 img {
     max-width: 150px;
     height: 150px;
     display: flex;
-    justify-content: center;
+    margin: auto;
+}
+
+select.email, label, button.enviar {
+    display: flex;
+    flex-direction: column; 
+    color: white;
 }
