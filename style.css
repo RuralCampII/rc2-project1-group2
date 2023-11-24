@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #85C7DE;
@@ -8,21 +8,47 @@ body {
 
 h1 {
     color: white;
-    margin-left: auto;
+    text-align: center;
 
 }
+
 
 #intro {
     color: white;
+    text-align: center;
 }
 
-aside {
-    width: 20%;
+#contact {
+    text-align: center;
+    color: white;
+}
+
+select.email {
+    display: flex;
+    justify-content: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    width: 12%;
     height: 100vh;
     background-color: #333;
-    color: white;
     padding: 20px;
     box-sizing: border-box;
+}
+
+label {
+    display: flex;
+    justify-content: column;
+}
+
+button.enviar {
+    display: flex;
+    justify-content: column;
 }
 
 #logo {
