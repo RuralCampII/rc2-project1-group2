@@ -55,6 +55,8 @@ label {
 button.enviar {
     display: flex;
     justify-content: column;
+    color: white;
+    background-color: #85C7DE;
 }
 
 #logo {
