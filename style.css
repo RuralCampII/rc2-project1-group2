@@ -95,6 +95,10 @@ img {
 
 select.email, label, button.enviar {
     display: flex;
-    flex-direction: column; 
-    color:cornflowerblue;
+    flex-direction: column;
+}
+
+button.enviar {
+    color: white;
+    background-color: cornflowerblue;
 }
