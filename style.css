@@ -9,6 +9,7 @@ body {
 h1 {
     color: white;
     text-align: center;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 
 }
 
@@ -30,6 +31,7 @@ select.email {
 
 ul {
     list-style: none;
+    font-size: large;
 }
 
 nav a {
@@ -70,6 +72,9 @@ section.team-members {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
 }
 
 article {
