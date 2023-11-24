@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-    color:white;
+    color: white;
     margin-left: auto;
 
 }
 
-#intro{
-    color:white;
+#intro {
+    color: white;
 }
 
 aside {
@@ -36,18 +36,19 @@ main {
     box-sizing: border-box;
 }
 
-.image-container {
+section.team-members {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-.image-item {
+
+article {
     text-align: center;
 }
 
 img {
     max-width: 150px;
     height: 150px;
-    display : flex;
+    display: flex;
     justify-content: center;
 }
